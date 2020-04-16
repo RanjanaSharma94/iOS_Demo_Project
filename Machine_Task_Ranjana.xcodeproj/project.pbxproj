@@ -3,18 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A9092F2C3EF4D06CA3A1365 /* Pods_Machine_Task_RanjanaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C252ED714425750FB25EC6C /* Pods_Machine_Task_RanjanaTests.framework */; };
 		6E502D1C244484CF00406A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E502D1B244484CF00406A80 /* AppDelegate.swift */; };
 		6E502D1E244484CF00406A80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E502D1D244484CF00406A80 /* SceneDelegate.swift */; };
-		6E502D20244484CF00406A80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E502D1F244484CF00406A80 /* ViewController.swift */; };
 		6E502D23244484CF00406A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E502D21244484CF00406A80 /* Main.storyboard */; };
 		6E502D25244484D100406A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E502D24244484D100406A80 /* Assets.xcassets */; };
 		6E502D28244484D100406A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E502D26244484D100406A80 /* LaunchScreen.storyboard */; };
 		6E502D33244484D100406A80 /* Machine_Task_RanjanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E502D32244484D100406A80 /* Machine_Task_RanjanaTests.swift */; };
 		6E502D3E244484D100406A80 /* Machine_Task_RanjanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E502D3D244484D100406A80 /* Machine_Task_RanjanaUITests.swift */; };
+		6EB7A16624470938001702FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7A16524470938001702FA /* LoginViewController.swift */; };
+		6EB7A1682447094A001702FA /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7A1672447094A001702FA /* DashboardViewController.swift */; };
+		6EB7A16A244709E3001702FA /* CreateEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7A169244709E3001702FA /* CreateEmployeeViewController.swift */; };
+		6EB7A16C24470A34001702FA /* EmployeesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7A16B24470A34001702FA /* EmployeesTableViewController.swift */; };
+		6EB7A16E24470DCC001702FA /* RecordTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7A16D24470DCC001702FA /* RecordTemplate.swift */; };
+		6EB7A17024470DEF001702FA /* CreateEmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7A16F24470DEF001702FA /* CreateEmployeeModel.swift */; };
+		6EB7A17224470E00001702FA /* EmployeeListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7A17124470E00001702FA /* EmployeeListModel.swift */; };
+		6EB7A17524471E38001702FA /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7A17424471E38001702FA /* NetworkHelper.swift */; };
+		6EB7A1772447297D001702FA /* EmployeeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7A1762447297D001702FA /* EmployeeListTableViewCell.swift */; };
+		A4D205387A4165D149B31792 /* Pods_Machine_Task_Ranjana_Machine_Task_RanjanaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF2F08747A1AA6B9C7AB29E /* Pods_Machine_Task_Ranjana_Machine_Task_RanjanaUITests.framework */; };
+		A6C444E6C5E5CEF82DE70913 /* Pods_Machine_Task_Ranjana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81ECD33B3165CAA2A0F25F0 /* Pods_Machine_Task_Ranjana.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0281ED9B564397B80C233A8F /* Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests/Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DF2F08747A1AA6B9C7AB29E /* Pods_Machine_Task_Ranjana_Machine_Task_RanjanaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Machine_Task_Ranjana_Machine_Task_RanjanaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FA1C8DF707518F1C007DC0 /* Pods-Machine_Task_RanjanaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machine_Task_RanjanaTests.release.xcconfig"; path = "Target Support Files/Pods-Machine_Task_RanjanaTests/Pods-Machine_Task_RanjanaTests.release.xcconfig"; sourceTree = "<group>"; };
 		6E502D18244484CF00406A80 /* Machine_Task_Ranjana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Machine_Task_Ranjana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E502D1B244484CF00406A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E502D1D244484CF00406A80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6E502D1F244484CF00406A80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6E502D22244484CF00406A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E502D24244484D100406A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E502D27244484D100406A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,21 @@
 		6E502D39244484D100406A80 /* Machine_Task_RanjanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Machine_Task_RanjanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E502D3D244484D100406A80 /* Machine_Task_RanjanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine_Task_RanjanaUITests.swift; sourceTree = "<group>"; };
 		6E502D3F244484D100406A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB7A16524470938001702FA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6EB7A1672447094A001702FA /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		6EB7A169244709E3001702FA /* CreateEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEmployeeViewController.swift; sourceTree = "<group>"; };
+		6EB7A16B24470A34001702FA /* EmployeesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesTableViewController.swift; sourceTree = "<group>"; };
+		6EB7A16D24470DCC001702FA /* RecordTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTemplate.swift; sourceTree = "<group>"; };
+		6EB7A16F24470DEF001702FA /* CreateEmployeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEmployeeModel.swift; sourceTree = "<group>"; };
+		6EB7A17124470E00001702FA /* EmployeeListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListModel.swift; sourceTree = "<group>"; };
+		6EB7A17424471E38001702FA /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		6EB7A1762447297D001702FA /* EmployeeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListTableViewCell.swift; sourceTree = "<group>"; };
+		8C252ED714425750FB25EC6C /* Pods_Machine_Task_RanjanaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Machine_Task_RanjanaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90621E0BCF36A17066DB2AE1 /* Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests.release.xcconfig"; path = "Target Support Files/Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests/Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B41CA6F8EA8F7AA9E707C236 /* Pods-Machine_Task_Ranjana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machine_Task_Ranjana.release.xcconfig"; path = "Target Support Files/Pods-Machine_Task_Ranjana/Pods-Machine_Task_Ranjana.release.xcconfig"; sourceTree = "<group>"; };
+		B6D0F0DF9CCD690985CE829E /* Pods-Machine_Task_RanjanaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machine_Task_RanjanaTests.debug.xcconfig"; path = "Target Support Files/Pods-Machine_Task_RanjanaTests/Pods-Machine_Task_RanjanaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3FD4900E19C12D8AE037D25 /* Pods-Machine_Task_Ranjana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Machine_Task_Ranjana.debug.xcconfig"; path = "Target Support Files/Pods-Machine_Task_Ranjana/Pods-Machine_Task_Ranjana.debug.xcconfig"; sourceTree = "<group>"; };
+		D81ECD33B3165CAA2A0F25F0 /* Pods_Machine_Task_Ranjana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Machine_Task_Ranjana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C444E6C5E5CEF82DE70913 /* Pods_Machine_Task_Ranjana.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9092F2C3EF4D06CA3A1365 /* Pods_Machine_Task_RanjanaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D205387A4165D149B31792 /* Pods_Machine_Task_Ranjana_Machine_Task_RanjanaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E80F0297FFAA1C7A79659BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3FD4900E19C12D8AE037D25 /* Pods-Machine_Task_Ranjana.debug.xcconfig */,
+				B41CA6F8EA8F7AA9E707C236 /* Pods-Machine_Task_Ranjana.release.xcconfig */,
+				0281ED9B564397B80C233A8F /* Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests.debug.xcconfig */,
+				90621E0BCF36A17066DB2AE1 /* Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests.release.xcconfig */,
+				B6D0F0DF9CCD690985CE829E /* Pods-Machine_Task_RanjanaTests.debug.xcconfig */,
+				22FA1C8DF707518F1C007DC0 /* Pods-Machine_Task_RanjanaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		60BA0E2AF146E09097DA3FD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D81ECD33B3165CAA2A0F25F0 /* Pods_Machine_Task_Ranjana.framework */,
+				1DF2F08747A1AA6B9C7AB29E /* Pods_Machine_Task_Ranjana_Machine_Task_RanjanaUITests.framework */,
+				8C252ED714425750FB25EC6C /* Pods_Machine_Task_RanjanaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E502D0F244484CF00406A80 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +137,8 @@
 				6E502D31244484D100406A80 /* Machine_Task_RanjanaTests */,
 				6E502D3C244484D100406A80 /* Machine_Task_RanjanaUITests */,
 				6E502D19244484CF00406A80 /* Products */,
+				0E80F0297FFAA1C7A79659BD /* Pods */,
+				60BA0E2AF146E09097DA3FD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +155,13 @@
 		6E502D1A244484CF00406A80 /* Machine_Task_Ranjana */ = {
 			isa = PBXGroup;
 			children = (
+				6EB7A16224470474001702FA /* Models */,
+				6EB7A16424470504001702FA /* Controller */,
+				6EB7A17324470E1E001702FA /* Services */,
 				6E502D1B244484CF00406A80 /* AppDelegate.swift */,
 				6E502D1D244484CF00406A80 /* SceneDelegate.swift */,
-				6E502D1F244484CF00406A80 /* ViewController.swift */,
-				6E502D21244484CF00406A80 /* Main.storyboard */,
 				6E502D24244484D100406A80 /* Assets.xcassets */,
+				6E502D21244484CF00406A80 /* Main.storyboard */,
 				6E502D26244484D100406A80 /* LaunchScreen.storyboard */,
 				6E502D29244484D100406A80 /* Info.plist */,
 			);
@@ -128,6 +186,36 @@
 			path = Machine_Task_RanjanaUITests;
 			sourceTree = "<group>";
 		};
+		6EB7A16224470474001702FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6EB7A16D24470DCC001702FA /* RecordTemplate.swift */,
+				6EB7A16F24470DEF001702FA /* CreateEmployeeModel.swift */,
+				6EB7A17124470E00001702FA /* EmployeeListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6EB7A16424470504001702FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6EB7A16524470938001702FA /* LoginViewController.swift */,
+				6EB7A1672447094A001702FA /* DashboardViewController.swift */,
+				6EB7A169244709E3001702FA /* CreateEmployeeViewController.swift */,
+				6EB7A16B24470A34001702FA /* EmployeesTableViewController.swift */,
+				6EB7A1762447297D001702FA /* EmployeeListTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6EB7A17324470E1E001702FA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6EB7A17424471E38001702FA /* NetworkHelper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E502D42244484D100406A80 /* Build configuration list for PBXNativeTarget "Machine_Task_Ranjana" */;
 			buildPhases = (
+				74F712C4C24561612D8D34B1 /* [CP] Check Pods Manifest.lock */,
 				6E502D14244484CF00406A80 /* Sources */,
 				6E502D15244484CF00406A80 /* Frameworks */,
 				6E502D16244484CF00406A80 /* Resources */,
+				4AB115594F48BD1EC0E65A3A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E502D45244484D100406A80 /* Build configuration list for PBXNativeTarget "Machine_Task_RanjanaTests" */;
 			buildPhases = (
+				8D201CFB02EFC73E9C69FE5E /* [CP] Check Pods Manifest.lock */,
 				6E502D2A244484D100406A80 /* Sources */,
 				6E502D2B244484D100406A80 /* Frameworks */,
 				6E502D2C244484D100406A80 /* Resources */,
@@ -170,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E502D48244484D100406A80 /* Build configuration list for PBXNativeTarget "Machine_Task_RanjanaUITests" */;
 			buildPhases = (
+				85DD26B4FE97F35A1DDBE0E8 /* [CP] Check Pods Manifest.lock */,
 				6E502D35244484D100406A80 /* Sources */,
 				6E502D36244484D100406A80 /* Frameworks */,
 				6E502D37244484D100406A80 /* Resources */,
+				CBF39F85FBD28201A3936DF5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,14 +347,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AB115594F48BD1EC0E65A3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Machine_Task_Ranjana/Pods-Machine_Task_Ranjana-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Machine_Task_Ranjana/Pods-Machine_Task_Ranjana-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Machine_Task_Ranjana/Pods-Machine_Task_Ranjana-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74F712C4C24561612D8D34B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Machine_Task_Ranjana-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85DD26B4FE97F35A1DDBE0E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D201CFB02EFC73E9C69FE5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Machine_Task_RanjanaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBF39F85FBD28201A3936DF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests/Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests/Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests/Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E502D14244484CF00406A80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E502D20244484CF00406A80 /* ViewController.swift in Sources */,
+				6EB7A1772447297D001702FA /* EmployeeListTableViewCell.swift in Sources */,
+				6EB7A16624470938001702FA /* LoginViewController.swift in Sources */,
+				6EB7A17024470DEF001702FA /* CreateEmployeeModel.swift in Sources */,
+				6EB7A17524471E38001702FA /* NetworkHelper.swift in Sources */,
 				6E502D1C244484CF00406A80 /* AppDelegate.swift in Sources */,
+				6EB7A17224470E00001702FA /* EmployeeListModel.swift in Sources */,
+				6EB7A16E24470DCC001702FA /* RecordTemplate.swift in Sources */,
 				6E502D1E244484CF00406A80 /* SceneDelegate.swift in Sources */,
+				6EB7A16C24470A34001702FA /* EmployeesTableViewController.swift in Sources */,
+				6EB7A16A244709E3001702FA /* CreateEmployeeViewController.swift in Sources */,
+				6EB7A1682447094A001702FA /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +636,7 @@
 		};
 		6E502D43244484D100406A80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3FD4900E19C12D8AE037D25 /* Pods-Machine_Task_Ranjana.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +654,7 @@
 		};
 		6E502D44244484D100406A80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41CA6F8EA8F7AA9E707C236 /* Pods-Machine_Task_Ranjana.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +672,7 @@
 		};
 		6E502D46244484D100406A80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D0F0DF9CCD690985CE829E /* Pods-Machine_Task_RanjanaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +694,7 @@
 		};
 		6E502D47244484D100406A80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22FA1C8DF707518F1C007DC0 /* Pods-Machine_Task_RanjanaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +716,7 @@
 		};
 		6E502D49244484D100406A80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0281ED9B564397B80C233A8F /* Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +736,7 @@
 		};
 		6E502D4A244484D100406A80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90621E0BCF36A17066DB2AE1 /* Pods-Machine_Task_Ranjana-Machine_Task_RanjanaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

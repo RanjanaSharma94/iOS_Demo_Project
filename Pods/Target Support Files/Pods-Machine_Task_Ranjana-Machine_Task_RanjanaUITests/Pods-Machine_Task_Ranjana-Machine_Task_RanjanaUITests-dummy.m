@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Machine_Task_Ranjana_Machine_Task_RanjanaUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Machine_Task_Ranjana_Machine_Task_RanjanaUITests
+@end

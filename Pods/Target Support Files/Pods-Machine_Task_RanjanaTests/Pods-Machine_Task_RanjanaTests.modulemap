@@ -1,0 +1,6 @@
+framework module Pods_Machine_Task_RanjanaTests {
+  umbrella header "Pods-Machine_Task_RanjanaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
